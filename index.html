@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=hq, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>todo app</h1>
-    <div>
-      <input id="box" type="text" />
-
-      <ul>
-        <li>Meme</li>
-        <li>Kevin</li>
-        <li>Cabe</li>
+    <div class="container">
+      <div class="title">
+        <p>you have <span id="count">3</span> ToDos</p>
+      </div>
+      <ul id="list-html">
+        
       </ul>
+      <input id="box" type="text" placeholder="Enter item" />
+      <button id="submit" class="button">summit</button>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>

@@ -6,4 +6,39 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: solid 1px gray;
+}
+.container {
+  width: 300px;
+  margin: 50px auto;
+  border: solid 1px gray;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  border-bottom: solid 1px gray;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+#box {
+  margin-bottom: 10px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.button {
+  padding: 5px;
 }
